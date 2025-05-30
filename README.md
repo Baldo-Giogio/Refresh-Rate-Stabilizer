@@ -36,5 +36,10 @@ gcc refresh_rate_switcher.c -o refresh_rate_switcher.exe -lgdi32
 ```
 ## ⚠️ Notes
 Refresh rate changes may cause brief screen flickers.
+
 The refresh rate setting is persistent and saved in the Windows registry (CDS_UPDATEREGISTRY).
+
 You can modify the frequencies (144 and 60) as needed to suit your system capabilities.
+
+## Author
+Baldo G. Otu-Quayson
